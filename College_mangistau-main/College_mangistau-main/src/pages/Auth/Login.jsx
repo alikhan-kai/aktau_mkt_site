@@ -34,14 +34,20 @@ export default function Login() {
     setLoading(true);
 
     try {
-      /** ---------- SUPER USER ВХОД (только фронт) ---------- **/
+      /** ---------- SUPER USER ВХОД ---------- **/
       if (login === 'superuser' && password === 'super12345') {
         const token = 'super_token_123';
         const user = {
           name: 'Super User',
-          email: 'super@frontend.local',
+          email: 'admin@college.kz',
           role: 'superuser',
         };
+
+        try {
+          await api.post('/login', { email: 'superuser', password: 'super12345' });
+        } catch (e) {
+          console.log('Backend sync:', e);
+        }
 
         localStorage.setItem('auth_token', token);
         localStorage.setItem('isSuperUser', 'true');
