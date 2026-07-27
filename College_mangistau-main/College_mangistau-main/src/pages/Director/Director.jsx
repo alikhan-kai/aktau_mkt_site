@@ -1,0 +1,121 @@
+import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
+import Header from '../../components/Header/Header';
+import api from '../../api/axios';
+import styles from './Director.module.css';
+import Footer from '../../components/Footer/Footer';
+
+export default function Director(){
+  const { t } = useTranslation();
+    const [email, setEmail] = useState('');
+    const [message, setMessage] = useState('');
+    const [sending, setSending] = useState(false);
+    const [success, setSuccess] = useState('');
+    const [error, setError] = useState('');
+
+    const handleSubmit = async (e) => {
+      e.preventDefault();
+      setSuccess('');
+      setError('');
+
+      const emailRe = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      if(!emailRe.test(email)){
+        setError(t('feedback.invalid_email','Введите корректный email'));
+        return;
+      }
+      if(!message || message.trim().length < 3){
+        setError(t('feedback.enter_message','Пожалуйста, введите сообщение'));
+        return;
+      }
+
+      setSending(true);
+      try{
+        const payload = { full_name: t('feedback.visitor','Посетитель сайта'), title: email, text: message };
+        await api.post('/feedbacks', payload);
+        setSuccess(t('feedback.success','Спасибо! Ваше сообщение отправлено.'));
+        setEmail('');
+        setMessage('');
+      }catch(err){
+        console.error(err);
+        setError(t('feedback.error','Не удалось отправить сообщение. Попробуйте позже.'));
+      }finally{
+        setSending(false);
+      }
+    };
+
+    return (
+    <div>
+    <Header />
+      <main className={styles.page}>
+        <header className={styles.header}>
+          <div className={styles.headerInner}>
+            <h1 className={styles.title}>{t('director.title','Директор колледжа')}</h1>
+            <p className={styles.subtitle}>{t('director.subtitle','Новости, обращения и блог директора')}</p>
+          </div>
+        </header>
+
+        <section className={styles.container}>
+          <aside className={styles.profile}>
+            <div className={styles.avatarWrap}>
+              <img className={styles.avatar} src="/images/director.png" alt="Директор колледжа" />
+            </div>
+            <h2 className={styles.name}>Сармурзина Жания Оналбаевна</h2>
+            <p className={styles.position}>Директор ГККП «Мангистауский колледж туризма»</p>
+
+            <div className={styles.contacts}>
+              <p>{t('director.contact')}</p>
+              <p>{t('director.email')}</p>
+            </div>
+          </aside>
+
+          <article className={styles.content}>
+            <h3 className={styles.sectionTitle}>{t('director.about')}</h3>
+            <h3 className={styles.directorH3}>{t('director.about_director')}</h3>
+            <p className={styles.directorAboutText}>{t('director.about_text')}</p>
+            <h3 className={styles.directorH3}>{t('director.career_title')}</h3>
+            <p className={styles.directorAboutText}>{t('director.career')}</p>
+            <h3 className={styles.directorH3}>{t('director.professional_achievements')}</h3>
+            <p className={styles.directorAboutText}>{t('director.achievements')}</p>
+            <h3 className={styles.directorH3}>{t('director.Principles')}</h3>
+            <p className={styles.directorAboutText}>{t('director.principles_text')}</p>
+            <h3 className={styles.sectionTitle}>{t('director.write_message')}</h3>
+
+            <div className={styles.formWrap}>
+              <form className={styles.feedbackForm} onSubmit={handleSubmit}>
+                <label className={styles.label} htmlFor="email">{t('feedback.email','Ваш Email')}</label>
+                <input id="email" className={styles.input} type="email" value={email} onChange={e=>setEmail(e.target.value)} placeholder="you@mail.com" />
+
+                <label className={styles.label} htmlFor="message">{t('feedback.message','Сообщение')}</label>
+                <textarea id="message" className={styles.textarea} rows={5} value={message} onChange={e=>setMessage(e.target.value)} placeholder={t('feedback.message_placeholder','Ваше сообщение...')} />
+
+                {error && <div className={styles.formError}>{error}</div>}
+                {success && <div className={styles.formSuccess}>{success}</div>}
+
+                <div className={styles.formActions}>
+                  <button className={styles.btnPrimary} type="submit" disabled={sending}>{sending ? t('feedback.sending','Отправка...') : t('feedback.send','Отправить')}</button>
+                </div>
+              </form>
+            </div>
+
+            <h3 className={styles.sectionTitle}>{t('director.latest_posts','Последние публикации')}</h3>
+            <div className={styles.postsGrid}>
+              <article className={styles.postCard}>
+                <h4 className={styles.postTitle}>{t('director.post_news','Новости колледжа и важные объявления')}</h4>
+                <p className={styles.postExcerpt}>{t('director.post_excerpt','Краткий анонс публикации директора. Дата и превью текста.')}</p>
+                <button className={styles.postMore}>{t('director.read','читать →')}</button>
+              </article>
+
+              <article className={styles.postCard}>
+                <h4 className={styles.postTitle}>{t('director.post_reports','Отчёты о встречах и поездках')}</h4>
+                <p className={styles.postExcerpt}>{t('director.post_reports_excerpt','Короткий текст-описание прошедших событий и достижений.')}</p>
+                <button className={styles.postMore}>{t('director.read','читать →')}</button>
+              </article>
+            </div>
+          </article>
+        </section>
+      </main>
+      <Footer />
+    </div>
+  );
+}
+

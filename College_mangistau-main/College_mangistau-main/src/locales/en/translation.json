@@ -1,0 +1,356 @@
+{
+  "director": {
+    "title": "Director of the College",
+    "subtitle": "News, messages and director's blog",
+    "about": "Appeal",
+    "contact": "Reception: +7 (7292) 60-51-56",
+    "email": "Email: j_sarmurzina@mail.ru",
+    "about_director": "Director's Biography",
+    "about_text": "Zhaniya Onalbayeva Sarmurzina is an experienced and dedicated leader in the field of education. She was born in the Mangystau region. She holds a higher education degree from the A.S. Pushkin Oral Pedagogical Institute, majoring in Kazakh Language and Literature Teaching. She also holds a Master’s degree in Technical Sciences.",
+    "career_title": "Career Path",
+    "career": "She began her career in education. From 1992 to 1996, she worked as a teacher in the schools of the village of Shetpe, Mangystau region. From 1996 to 2004, she was a teacher at secondary school No. 20 in Aktau. From 2003 to 2013, she served as the deputy director for scientific and methodological work at the Mangystau Polytechnic College. Since 2013, she has worked in the Department of Technical and Vocational Education of the Mangystau Regional Education Administration. Since September 2025, she has been appointed as the director of the Mangistau College of Tourism.",
+    "professional_achievements": "Professional Achievements",
+    "achievements": "• Teaching experience of over 30 years; \n • Awarded a letter of appreciation from the President of the Republic of Kazakhstan, a commendation and letter of appreciation from the Ministry of Education and Science of the Republic of Kazakhstan, the badge of honor \"Honorary Worker of Education of the Republic of Kazakhstan\", and the honorary diploma of the Ministry of Education of the Republic of Kazakhstan \"Best Worker of the Technical and Vocational Education System\";\n• Supports the introduction of modern educational technologies in the college;\n• Pays special attention to the development of the dual education system and the improvement of practice-oriented education;\n• Establishes partnerships with enterprises in the tourism and service sectors;\n• Supports projects aimed at the professional, personal, and creative development of students.",
+    "Principles": "Leadership Principles and Values",
+    "principles_text": "Motto: “Quality education is the key to a bright future.” Under Zhaniya Onalbayeva’s leadership, the college’s main goal is to train highly qualified specialists in the field of tourism and services who will contribute to the socio-economic development of the region. She actively promotes quality improvement in education, the implementation of innovative teaching methods, and the systematic development of educational and moral programs, thereby strengthening the reputation of the college.",
+    "write_message": "Write a message to the director",
+    "latest_posts": "Latest posts",
+    "post_news": "College news and important announcements",
+    "post_excerpt": "Short announcement of the director's publication. Date and text preview.",
+    "post_reports": "Reports on meetings and trips",
+    "post_reports_excerpt": "Short description of past events and achievements.",
+    "read": "read →"
+  },
+
+ "directorblog": {
+    "name": "Sarmurzina Zhaniya Onalbayeva",
+    "position": "Director",
+    "title": "Director of the College",
+    "subtitle": "News, messages and director's blog",
+    "about": "Appeal",
+    "contact": "Phone: +7 (7292) 60-51-56",
+    "email": "Email: j_sarmurzina@mail.ru",
+    "read_more": "Read the blog"
+  },
+
+
+  "search": {
+    "placeholder": "Search the site...",
+    "find": "Find"
+  },
+
+  "accessibility": {
+    "title": "Accessibility Version",
+    "toggle": "Accessibility Settings",
+    "settings": "Accessibility Settings",
+    "close": "Close",
+    "screenReader": "Screen Reader",
+    "active": "Active",
+    "highContrast": "High Contrast",
+    "fontSize": "Font Size",
+    "reset": "Reset Settings",
+    "description": "Settings are saved automatically and applied to all pages of the site."
+  },
+  "news_list": {
+    "loading": "Loading news...",
+    "empty": "No news yet",
+    "error": "Failed to load news"
+  },
+
+  "feedback": {
+    "email": "Your Email",
+    "message": "Message",
+    "send": "Send",
+    "success": "Thank you! Your message has been sent.",
+    "error": "Failed to send the message. Try later.",
+    "visitor": "Website visitor",
+    "invalid_email": "Please enter a valid email",
+    "enter_message": "Please enter a message",
+    "sending": "Sending..."
+  }
+  ,
+  "home": {
+    "title": "Official website",
+    "name": "Mangistau College of Tourism",
+    "watch_video": "Watch the college video",
+    "announcements": "Announcements & Events",
+    "news": "News",
+    "news_sub": "Mangistau College of Tourism",
+    "view_all_news": "View all news"
+  }
+  ,
+  "loading": "Loading...",
+  "announcement": { "more": "more →" },
+  "announcements": { "error": "Failed to load announcements" },
+  "menu": {
+    "about": "About Us",
+    "spec": "Specialties",
+    "applicants": "For Applicants",
+    "students": "For Students",
+    "teachers": "For Teachers",
+    "contacts": "Contacts",
+    "project": "Our Projects",
+    "projects": "Our Projects",
+    "careerguidancework": "Career Guidance Work",
+    "worldskills": "WorldSkills",
+    "dualtraining": "Dual Training",
+    "demo": "Demo Exam",
+    "rules": "Admission Rules",
+    "director": "College Director",
+    "document": "Document List",
+    "news": "News",
+    "sidebar_label": "Menu",
+    "close": "Close"
+  },
+
+  "stats": {
+    "students": "students",
+    "buildings": "academic buildings",
+    "teachers": "teachers",
+    "dorms": "dormitories"
+  },
+
+  "about_page": {
+    "title": "About Us",
+    "subtitle": "Information about the college",
+    "p1": "Mangistau College of Tourism is an educational institution with a modern system, open information environment, and up-to-date infrastructure.",
+    "p2": "The college is an evolving institution focused on the needs of the individual, society, and state. Key development trends include continuous quality improvement in education and alignment with the labor market.",
+    "contingent": "Student body: 976 students (under state grant/budget), including:",
+    "local_budget": "552 students — funded by the local budget,",
+    "state_budget": "424 students — funded by the republican budget.",
+    "languages_info": "563 students study in the state language (Kazakh), and 413 in Russian.",
+    "start_date": "The college began operations on August 6, 2009, offering vocational and technical education programs.",
+    "infrastructure_title": "Infrastructure and facilities:",
+    "infra_b1": "own building (capacity of 750 seats),",
+    "infra_b2": "22 classrooms, 3 computer labs, 2 language labs, 12 laboratories,",
+    "infra_b3": "dormitory with 160 beds, library, gym, museum, climbing wall.",
+    "zhas_maman": "In 2020, the 'Zhas Maman' project was implemented for 213 million tenge.",
+    "directions": "The college actively develops culinary and tourism specialties, offering training and retraining programs."
+  },
+
+  "students_page": {
+    "title": "For Students",
+    "subtitle": "Information for Students",
+    "intro": "Upon admission to the college, a guidebook assists students.",
+    "leaders": "Group advisors for the 2019-2020 academic year:",
+    "timetable_label": "Bell Schedule",
+    "shift1": "Shift 1",
+    "shift2": "Shift 2",
+    "double_lesson": "Double Class",
+    "lesson_order": "Class #",
+    "time": "Time",
+    "break": "Break"
+  },
+
+  "teachers_page": {
+    "title": "Teachers",
+    "subtitle": "College Teaching Staff",
+    "intro": "Our teachers are highly qualified specialists with extensive experience in their respective fields...",
+    "list_title": "Staff List of Mangistau College of Tourism",
+    "th_num": "№",
+    "th_name": "Full Name",
+    "th_pos": "Position",
+    "cat1": "Administrative Management",
+    "cat2": "Main Staff",
+    "cat3": "Administrative Staff",
+    "cat4": "Support Staff",
+    "cat5": "Teachers",
+    "cat6": "Vocational Training Masters"
+  },
+
+  "dualtraining_page": {
+    "title": "Dual Education",
+    "subtitle": "Employment Assistance & Practical Training System",
+    "p1": "'Dual education' refers to a training system in which a college student combines theoretical studies at an educational institution with practical activities at an employer enterprise.",
+    "p2": "The main partner enterprise for dual education at our college is the Branch of the private company 'Aktau Tourism City Ltd.'",
+    "features_title": "System Features:",
+    "f1": "The student spends most of the time (e.g. 60%) directly at the enterprise workspace rather than in classrooms.",
+    "f2": "A tripartite agreement is signed between the college, enterprise, and student.",
+    "f3": "Practical work completed at the enterprise counts toward work experience.",
+    "f4": "Training is tailored to specific company demands, producing highly employable graduates.",
+    "codex": "Article 119 'Dual Education' was introduced into the Labor Code of the Republic of Kazakhstan to solidify this system.",
+    "goals_title": "Main Goals:",
+    "g1": "Bridging education and industry.",
+    "g2": "Preparing competitive professionals.",
+    "g3": "Developing core professional competencies.",
+    "g4": "Promoting graduate employment.",
+    "stats_title": "Dual Education Statistics",
+    "year": "Academic Year",
+    "contingent": "Total Students",
+    "dual_count": "Dual Training Students",
+    "catering": "Catering & Food Service",
+    "hotel": "Hotel Management"
+  },
+
+  "demo_page": {
+    "title": "Demo Exam",
+    "subtitle": "Professional Competency Assessment according to WorldSkills Standards",
+    "desc": "A demonstration exam is a practical final evaluation of students' professional competencies that closely mimics real working environments. Graduates receive a Skills Passport upon completion.",
+    "goals_title": "Goals:",
+    "g1": "Evaluate practical professional skill levels;",
+    "g2": "Improve vocational training quality;",
+    "g3": "Align education with market needs.",
+    "features_title": "Features:",
+    "f1": "Independent industry expert evaluators;",
+    "f2": "Real-world practical assignment;",
+    "f3": "College base or employer testing center.",
+    "table_title": "Graduation & Demo Exam Statistics",
+    "year": "Year",
+    "graduates": "Graduates",
+    "specialties": "Specialties (code - count)",
+    "passed": "Passed Demo Exam"
+  },
+
+  "worldskills_page": {
+    "title": "WorldSkills",
+    "subtitle": "College Achievements in International & National Championships"
+  },
+
+  "careerguidance_page": {
+    "title": "Career Guidance Work",
+    "subtitle": "Information for Applicants and School Students"
+  },
+
+  "footer": {
+    "useful": "Useful links",
+    "departments": "Departments",
+    "screen_reader": "Screen reader",
+    "admission": "Admission",
+    "rules": "Admission rules",
+    "cost": "Tuition fees",
+    "faq": "FAQ",
+    "college_name": "Mangistau College of Tourism"
+  }
+  ,
+  "specialties": {
+    "section_label": "Specialties",
+    "title": "Specialties",
+    "college": "Mangistau College of Tourism",
+    "more_btn": "Learn more",
+    "prev": "Previous",
+    "next": "Next",
+    "items": {
+      "s1": { "title": "Hotel business", "desc": "10130100-Hotel business \nквалификация 4S10130104-Супервайзер\n" },
+      "s2": { "title": "Food organization", "desc": "10130300-Food organization \nквалификации 3W10130302-Повар, 3W10130301-Кондитер-оформитель, 4S10130303-Технолог" },
+      "s3": { "title": "Tourism", "desc": "10150100-Tourism \nквалификация 4S10150104-Менеджер по туризму" },
+      "s4": { "title": "Translation", "desc": "02310100-Translation (по видам)\nквалификация 4S02310101-Переводчик\n" },
+      "s5": { "title": "Marketing", "desc": "04140100-Marketing (по отраслям)\nквалификация 4S04140103-Маркетолог\n" }
+    },
+    "detail": {
+      "subtitle": "Learn more about the specialties",
+      "about": "About the specialty",
+      "subjects": "Disciplines",
+      "apply": "Apply",
+      "back_to_list": "← Back to specialties",
+      "not_found": "Specialty not found",
+      "duration_label": "Study Duration",
+      "qualification_label": "Qualification Received",
+      "s1": {
+        "description": "Hotel business is a modern and promising specialty aimed at training qualified professionals for the hospitality industry. Students learn the fundamentals of hotel management, customer service, marketing and reservation systems.",
+        "qualification": "Upon completion of training, graduates receive the qualification '4S10130104 - Supervisor' and can work in various positions in hotels, resorts and other hospitality establishments.",
+        "duration": "2 years 10 months",
+        "subjects": [
+          "Hotel and restaurant business fundamentals",
+          "Hotel service",
+          "Reception and accommodation service",
+          "Restaurant service",
+          "Hotel marketing",
+          "Financial accounting in hotels",
+          "Professional English",
+          "Psychology of customer service",
+          "Hotel equipment and technologies",
+          "Business ethics and etiquette"
+        ]
+      },
+      "s2": {
+        "description": "Food organization is a specialty that trains specialists for the food service industry. Students master cooking technologies, confectionery production and restaurant business management.",
+        "qualification": "Graduates can receive qualifications: '3W10130302 - Cook', '3W10130301 - Pastry decorator', '4S10130303 - Technologist' and work in restaurants, cafes, hotels and other catering establishments.",
+        "duration": "2 years 10 months / 3 years 10 months",
+        "subjects": [
+          "Cooking technology",
+          "Confectionery technology",
+          "Restaurant service",
+          "Food safety and hygiene",
+          "Menu planning and costing",
+          "Kitchen equipment",
+          "Culinary creativity",
+          "Dietary nutrition",
+          "National cuisine",
+          "Restaurant business management"
+        ]
+      },
+      "s3": {
+        "description": "Tourism is a dynamically developing specialty that prepares specialists for the tourism industry. Students study tour planning, excursion activities, tourist routes and customer service in tourism.",
+        "qualification": "Upon graduation, students receive the qualification '4S10150104 - Tourism Manager' and can work in travel agencies, tourist companies, hotels and recreational facilities.",
+        "duration": "3 years 10 months",
+        "subjects": [
+          "Tourism geography",
+          "Tour planning and organization",
+          "Excursion activities",
+          "Tourism psychology",
+          "Tourism marketing",
+          "Tourism law",
+          "Foreign languages in tourism",
+          "Hotel and restaurant business",
+          "Local studies and cultural heritage",
+          "Ecological tourism"
+        ]
+      },
+      "s4": {
+        "description": "Translation is a specialty that trains qualified translators for various fields. Students master translation techniques, work with different types of texts and develop intercultural communication skills.",
+        "qualification": "Graduates receive the qualification '4S02310101 - Translator' and can work as interpreters, written translators, in international companies and government agencies.",
+        "duration": "3 years 10 months",
+        "subjects": [
+          "Translation theory and practice",
+          "Professional foreign language",
+          "Oral translation",
+          "Written translation",
+          "Computer translation technologies",
+          "Cultural studies and intercultural communication",
+          "Business correspondence",
+          "Legal translation",
+          "Technical translation",
+          "Translation ethics"
+        ]
+      },
+      "s5": {
+        "description": "Marketing is a modern specialty that prepares specialists in marketing and advertising. Students study market analysis, brand promotion, digital marketing and customer relationship management.",
+        "qualification": "Upon completion of training, graduates receive the qualification '4S04140103 - Marketing specialist' and can work in marketing departments, advertising agencies and commercial companies.",
+        "duration": "3 years 10 months",
+        "subjects": [
+          "Marketing fundamentals",
+          "Market research",
+          "Advertising and PR",
+          "Digital marketing",
+          "Brand management",
+          "Sales management",
+          "Consumer behavior",
+          "Marketing communications",
+          "Internet marketing",
+          "International marketing"
+        ]
+      }
+    }
+  },
+
+  "document": {
+    "get": {
+      "title": "Document List",
+      "description": "Here you can find all necessary college documents",
+      "search": "Search documents...",
+      "found": "Found",
+      "documents": "documents",
+      "empty": "No documents yet",
+      "empty_desc": "Documents will appear here after being added by the administrator",
+      "view": "View",
+      "download": "Download",
+      "open": "Open file",
+      "error": "Failed to load documents"
+    }
+  },
+
+  "nav": {
+    "home": "Home",
+    "specialties": "Specialties"
+  }
+}

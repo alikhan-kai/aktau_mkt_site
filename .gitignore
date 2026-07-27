@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+vendor/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# SQLite Database
+database/database.sqlite
+*.sqlite
+*.sqlite-journal
+
+# Storage & Logs
+storage/*.key
+storage/logs/*
+!storage/logs/.gitkeep
+storage/framework/cache/*
+!storage/framework/cache/.gitkeep
+storage/framework/sessions/*
+!storage/framework/sessions/.gitkeep
+storage/framework/views/*
+!storage/framework/views/.gitkeep
+
+# IDE / System
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
